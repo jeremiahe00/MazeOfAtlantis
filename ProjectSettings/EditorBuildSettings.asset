@@ -6,27 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Controller/3rdPerson+Fly/Scenes/3rdPerson+Fly.unity
-    guid: edce6a3cd6b78e7459bd2864b9295f8c
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/View/ViewMainMenu/MainMenuScene.unity
     guid: 8c382add061b6b640a9c170555afecb2
   - enabled: 1
     path: Assets/View/ViewPlayGame/PlayGame.unity
     guid: a2224562e3d9af04b877f7151185effe
-  - enabled: 1
-    path: Assets/View/ViewLeaderboard/LeaderboardScene.unity
+  - enabled: 0
+    path: Assets/View/SubmitMenu/LeaderboardScene.unity
     guid: f10c9efd6126d4247811b3b9320b90dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/View/ViewStats/StatsScene.unity
     guid: 3b3c293afc9551f4fbf4af87b0e471ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/View/ViewSettings/SettingsScene.unity
     guid: db6407a22b0bdaa4aba1e22a15ef424e
-  - enabled: 1
+  - enabled: 0
     path: Assets/View/ViewTutorialMode/TutorialScene.unity
     guid: 4f325ffcc56bd7d4093e263c2f42ed63
   - enabled: 1
     path: Assets/View/ViewPlayGame/GameOverScene.unity
     guid: 633a69c59fd4de94f9f845f84203b619
+  - enabled: 1
+    path: Assets/View/SubmitMenu/SubmitScene.unity
+    guid: a70418f59711f446dae8721619007a95
   m_configObjects: {}
