@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterSpeed : MonoBehaviour
 {
-
+   
     protected static float SideWaysSpeed = 1.1f;
 
     protected static float PDSpeed = 1.1f;
@@ -19,4 +19,5 @@ public class CharacterSpeed : MonoBehaviour
             forward += 0.00020f;
         }
     }
+
 }

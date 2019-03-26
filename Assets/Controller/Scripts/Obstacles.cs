@@ -7,18 +7,16 @@ public class Obstacles : MonoBehaviour
 {
     private ScoreManager theScoreManager; //inheritance of public variables in ScoreManager.cs
     public float score;
-    private void Start()
+    public void Start()
     {
         theScoreManager = FindObjectOfType<ScoreManager>();
 
     }
-
-    private void Update()
+    public void Update()
     {
         score = theScoreManager.scoreCount;
     }
-    //score = Mathf.Round(theScoreManager.scoreCount * 100f) / 100f;
-    //scoreText.text = "Score: " + score;
+
     void OnTriggerEnter(Collider col)
     {
 

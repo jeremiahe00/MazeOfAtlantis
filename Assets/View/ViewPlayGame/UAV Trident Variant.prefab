@@ -49,6 +49,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UAV Trident Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 191634, guid: 32303dc3554fcfc419798a1f0235187f, type: 3}
+      propertyPath: m_TagString
+      value: Water
+      objectReference: {fileID: 0}
     - target: {fileID: 499964, guid: 32303dc3554fcfc419798a1f0235187f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.78

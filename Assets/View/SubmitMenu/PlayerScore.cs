@@ -5,7 +5,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 using UnityEngine.SceneManagement;
 
 public class PlayerScore : MonoBehaviour
@@ -26,12 +25,6 @@ public class PlayerScore : MonoBehaviour
     public Text nameText;
 
     public InputField inputToClear;
-
-    //private System.Random random = new System.Random();
-
-    //User user = new User();
-    //public static int playerScore;
-    //public static string playerName;
 
     const int kMaxLogSize = 16382;
     private DependencyStatus dependencyStatus = DependencyStatus.UnavailableOther;
@@ -123,10 +116,11 @@ protected void StartListener()
 // Exit if escape (or back, on mobile) is pressed.
 void Update()
 {
-    if (PlayerPrefs.HasKey("score"))
+        if (PlayerPrefs.HasKey("scoreVariable"))
         {
-            scoreE = PlayerPrefs.GetFloat("score");
+            scoreE = PlayerPrefs.GetFloat("scoreVariable");
         }
+
         scoreEarned.text = "Score: " + (Mathf.Round(scoreE * 100f) / 100f);    
                 
     if (Input.GetKeyDown(KeyCode.Escape))
@@ -215,8 +209,8 @@ public void AddScore()
 {
 
     name = nameText.text;
-    score = (Mathf.Round(scoreE * 100f) / 100f);
-    //(int)Mathf.Round(theScoreManager.scoreCount * 100f) / 100f;
+    score = Mathf.Round(scoreE * 100f) / 100f;
+        //(int)Mathf.Round(theScoreManager.scoreCount * 100f) / 100f;
 
         if ((int)score == 0 || string.IsNullOrEmpty(name))
         {
@@ -243,7 +237,6 @@ public void AddScore()
           }
       });
         //update UI
-        //addScorePressed = true;
         ClearFields();
     }
 

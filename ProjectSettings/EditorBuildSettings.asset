@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/View/ViewMainMenu/MainMenuScene.unity
     guid: 8c382add061b6b640a9c170555afecb2
   - enabled: 1
     path: Assets/View/ViewPlayGame/PlayGame.unity
     guid: a2224562e3d9af04b877f7151185effe
-  - enabled: 0
+  - enabled: 1
     path: Assets/View/SubmitMenu/LeaderboardScene.unity
     guid: f10c9efd6126d4247811b3b9320b90dd
-  - enabled: 0
+  - enabled: 1
     path: Assets/View/ViewStats/StatsScene.unity
     guid: 3b3c293afc9551f4fbf4af87b0e471ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/View/ViewSettings/SettingsScene.unity
     guid: db6407a22b0bdaa4aba1e22a15ef424e
-  - enabled: 0
+  - enabled: 1
     path: Assets/View/ViewTutorialMode/TutorialScene.unity
     guid: 4f325ffcc56bd7d4093e263c2f42ed63
   - enabled: 1
