@@ -129,6 +129,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MazePath
       objectReference: {fileID: 0}
+    - target: {fileID: 7482453990306035804, guid: 5bfc721489fadc646a6573160a4ed8b2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.27
+      objectReference: {fileID: 0}
     - target: {fileID: 2856029428989775301, guid: 5bfc721489fadc646a6573160a4ed8b2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -309,11 +314,6 @@ PrefabInstance:
       propertyPath: PathSpawnPoints
       value: 
       objectReference: {fileID: 770622145}
-    - target: {fileID: 7482453990306035804, guid: 5bfc721489fadc646a6573160a4ed8b2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 25.27
-      objectReference: {fileID: 0}
     - target: {fileID: 6407777258735682287, guid: 5bfc721489fadc646a6573160a4ed8b2,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -581,10 +581,10 @@ RectTransform:
   m_Father: {fileID: 1438946773}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.18066522, y: 0.7714407}
-  m_AnchorMax: {x: 0.18066522, y: 0.7714407}
-  m_AnchoredPosition: {x: -114.9, y: 132.1}
-  m_SizeDelta: {x: 156.2, y: 47.6}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 7, y: 7}
+  m_SizeDelta: {x: 64.7, y: 24}
   m_Pivot: {x: -0.27861738, y: 2.5439029}
 --- !u!114 &183148301
 MonoBehaviour:
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9150943, g: 0.67470276, b: 0.082013145, a: 1}
+  m_Color: {r: 1, g: 0.92156863, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0

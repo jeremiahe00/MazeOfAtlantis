@@ -12,22 +12,18 @@ public class Obstacles : MonoBehaviour
         theScoreManager = FindObjectOfType<ScoreManager>();
 
     }
-    public void Update()
-    {
-        score = theScoreManager.scoreCount;
-    }
 
     void OnTriggerEnter(Collider col)
     {
 
         //if the player hits one obstacle, it's game over
-        if (col.gameObject.tag == Constants.PlayerTag)
+        if (theScoreManager != null && col.gameObject.tag == Constants.PlayerTag)
         {
             theScoreManager.scoreIncreasing = false;
-            if(PlayerPrefs.HasKey("score"))
-            {
-                score = PlayerPrefs.GetFloat("score");
-            }
+            //if(PlayerPrefs.HasKey("score"))
+            //{
+            //    score = PlayerPrefs.GetFloat("score");
+            //}
 
             GameManager.Instance.Die();
             //Destroy(col.gameObject); // look into this
